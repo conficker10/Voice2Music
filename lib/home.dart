@@ -143,7 +143,7 @@ class _MyHomeState extends State<MyHome> {
             builder: (BuildContext context) => emptyStringPopupDialog(context),
           );
         } else {
-          var url = 'http://3.89.93.23/cgi-bin/spotifyAPI.py?x=$_text';
+          var url = 'http://3.84.251.31/cgi-bin/spotifyAPI.py?x=$_text';
 
           showDialog(
               context: context,
